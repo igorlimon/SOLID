@@ -1,11 +1,11 @@
 ﻿namespace SOLID.O.Solution
 {
 
-    public class GoldCustomer : SilverCustomer
+    public class GoldCustomer : Customer
     {
-        public override double getDiscount(double TotalSales)
+        public override double GetDiscount(double totalSales)
         {
-            return base.getDiscount(TotalSales) - 100;
+            return base.GetDiscount(totalSales) - 100;
         }
     }
 }

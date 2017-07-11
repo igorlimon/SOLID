@@ -1,6 +1,6 @@
 ﻿namespace SOLID.L.Solution
 {
-    public class SqlFile : IWritableSqlFile, IReadableSqlFile
+    public class File : IWritableSqlFile, IReadableFile
     {
         public string FilePath { get; set; }
         public string FileText { get; set; }

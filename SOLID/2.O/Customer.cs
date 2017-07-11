@@ -10,15 +10,15 @@
             set { _custType = value; }
         }
 
-        public double GetDiscount(double TotalSales)
+        public double GetDiscount(double totalSales)
         {
             if (_custType == 1)
             {
-                return TotalSales - 100;
+                return totalSales - 100;
             }
             else
             {
-                return TotalSales - 50;
+                return totalSales - 50;
             }
         }
     }

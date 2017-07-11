@@ -1,6 +1,6 @@
 ﻿namespace SOLID.L.Solution
 {
-    public interface IReadableSqlFile
+    public interface IReadableFile
     {
         string LoadText();
     }

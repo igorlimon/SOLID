@@ -3,9 +3,9 @@ using System.Text;
 
 namespace SOLID.L.Solution
 {
-    public class SqlFileManager
+    public class FileManager
     {
-        public string GetTextFromFiles(List<IReadableSqlFile> aLstReadableFiles)
+        public string GetTextFromFiles(List<IReadableFile> aLstReadableFiles)
         {
             StringBuilder objStrBuilder = new StringBuilder();
             foreach (var objFile in aLstReadableFiles)

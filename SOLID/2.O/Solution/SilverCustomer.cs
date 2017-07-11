@@ -2,9 +2,9 @@
 {
     public class SilverCustomer : Customer
     {
-        public override double getDiscount(double TotalSales)
+        public override double GetDiscount(double totalSales)
         {
-            return base.getDiscount(TotalSales) - 50;
+            return base.GetDiscount(totalSales) - 50;
         }
     }
 }
