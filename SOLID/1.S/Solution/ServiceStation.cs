@@ -13,7 +13,7 @@
             _gateUtility.OpenGate();
         }
 
-        public void DoService()
+        public void DoService(Vehicle vehicle)
         {
             //Check if service station is opened and then
             //complete the vehicle service

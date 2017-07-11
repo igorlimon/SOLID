@@ -5,7 +5,7 @@ pours up to 12 cups of water into the water strainer and presses the Brew button
 heated until boiling. The pressure of the evolving steam forces the water to be sprayed over the
 coffee grounds, and coffee drips through the filter into the pot. The pot is kept warm for extended
 periods by a warmer plate, which turns on only if coffee is in the pot. If the pot is removed from the
-warmer plate while water is being sprayed over the grounds, the flow of water is stopped so that
+warmer plate while w	ater is being sprayed over the grounds, the flow of water is stopped so that
 brewed coffee does not spill on the warmer plate. The following hardware needs to be monitored or
 controlled:
 +The heating element for the boiler. It can be turned on or off.
