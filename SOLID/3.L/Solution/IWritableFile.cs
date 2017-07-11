@@ -1,6 +1,6 @@
 ﻿namespace SOLID.L.Solution
 {
-    public interface IWritableSqlFile
+    public interface IWritableFile
     {
         void SaveText();
     }

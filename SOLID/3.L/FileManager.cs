@@ -5,12 +5,12 @@ namespace SOLID.L
 {
     public class FileManager
     {
-        public List<File> lstFiles;
+        public List<File> files;
 
         public string GetTextFromFiles()
         {
             StringBuilder objStrBuilder = new StringBuilder();
-            foreach (var objFile in lstFiles)
+            foreach (var objFile in files)
             {
                 objStrBuilder.Append(objFile.LoadText());
             }
@@ -19,7 +19,7 @@ namespace SOLID.L
 
         public void SaveTextIntoFiles()
         {
-            foreach (var objFile in lstFiles)
+            foreach (var objFile in files)
             {
                 //Check whether the current file object is read only or not.If yes, skip calling it's  
                 // SaveText() method to skip the exception.  
