@@ -12,8 +12,8 @@ controlled:
 +The heating element for the warmer plate. It can be turned on or off.
 +The sensor for the warmer plate. It has three states: warmerEmpty, potEmpty, potNotEmpty.
 +A sensor for the boiler, which determines whether water is present. It has two states:
-boilerEmpty or boilerNotEmpty.
+	boilerEmpty or boilerNotEmpty.
 +The Brew button. This momentary button starts the brewing cycle. It has an indicator that lights
-up when the brewing cycle is over and the coffee is ready.
+	up when the brewing cycle is over and the coffee is ready.
 +A pressure-relief valve that opens to reduce the pressure in the boiler. The drop in pressure
-stops the flow of water to the filter. The value can be opened or closed.
+	stops the flow of water to the filter. The value can be opened or closed.
